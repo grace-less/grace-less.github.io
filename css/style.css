@@ -1,6 +1,6 @@
 #main-header{
     background-color: goldenrod;
-    display: inline;
+    list-style: none;
 }
 
 .container{
@@ -20,6 +20,13 @@
 
 #navbar li{
     display: inline;
+}
+
+#navbar a{
+    color: rgb(192, 187, 181);
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
 }
 
 .pages{
