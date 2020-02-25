@@ -25,6 +25,7 @@
 #navbar a{
     color: rgb(192, 187, 181);
     text-decoration: none;
+    font-family: 'EB Garamond';
     font-size:18px;
     padding-right:15px;
 }
