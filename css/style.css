@@ -1,6 +1,29 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+/*p{
+    text-align:;
+}*/
+
+ul{
+    text-align: center;
+}
+
 #main-header{
     background-color: goldenrod;
-    list-style: none;
 }
 
 .container{
@@ -26,8 +49,9 @@
     color: rgb(192, 187, 181);
     text-decoration: none;
     font-family: 'EB Garamond';
-    font-size:18px;
+    font-size:28px;
     padding-right:15px;
+
 }
 
 .pages{
@@ -39,7 +63,7 @@ body {
     columns: black;
     font: normal 16px ;
     line-height: 1.6em;
-    margin: 0;
+    padding-left: 30px;
 }
 
 #showcase{
