@@ -1,61 +1,52 @@
-/*
-*{
-    margin: ;
-    padding: ;
-}
-
-body {
-    background-color: ;
-    color: ;
-    font-family: ;
-    font-size: ;
-    font-weight: ;
-    line-height: ;
-    margin: ;
+#main-header{
+    background-color: goldenrod;
 }
 
 .container{
-    width: ;
-    margin: ;
+    width: 80%;
+    margin: auto;
 }
 
-.button{
-    background-color: ;
-    color: ;
-    padding:;
-    border: ;
+#navbar{
+    background-color: black;
 }
 
-.clr{
-    clear: ;
+.pages{
+    color: rgb(192, 187, 181);
 }
 
-.box-2{
-    border: ;
-    padding: ;
-    margin: ;
+body {
+    background-color: lightslategray;
+    columns: black;
+    font: normal 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
 }
 
-.categories{
-    border: ;
-    padding: ;
-    border-radius: ;
+#showcase{
+    color: black;
+}
+
+.main-block{
+    margin: 30px;
+}
+
+.my-list{
+    margin: 60px;
 }
 
 .block{
-    float: ;
-    width: ;
-    border: ;
-    padding: ;
-    box-sizing: ;
+    margin: 45px;
 }
 
-#sidebar{
-    float: ;
-    width: ;
-    background-color: ;
-    color: ;
-    padding: ;
-    box-sizing: ;
+#footnote{
+    background-color: rgb(73, 52, 73);
 }
-*/
+
+.box{
+    margin: 15px;
+}
+
+#main-footer{
+    background-color: slategray;
+}
