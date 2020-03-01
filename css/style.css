@@ -76,6 +76,7 @@ body {
 
 .my-list{
     margin: 60px;
+    list-style-image: url(../img/check.png);
 }
 
 .block{
