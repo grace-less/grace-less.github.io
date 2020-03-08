@@ -26,20 +26,19 @@
           <div class="bg-light border-right" id="sidebar-wrapper">
             <div class="sidebar-heading"> Project 0 </div>
             <div class="list-group list-group-flush">
-                <li class="list-group-item dropdown">
-                    <a class="list-group-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Personally
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="list-group-itemDropdown">
-                      <a class="dropdown-item" href="#">As a Person</a>
-                      <a class="dropdown-item" href="#">My Interests</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">My Voice</a>
+                <button class="accordion">Section 1</button>
+                    <div class="button">
+                        <ul>
+                            <li><a href="#" class="list-group-item list-group-item-action bg-light">As a Person</a></li>
+                            <li><a href="#" class="list-group-item list-group-item-action bg-light">My Interests</a></li>
+                            <li><a href="#" class="list-group-item list-group-item-action bg-light">My Voice</a></li>
+                        </ul>
                     </div>
-                </li>
+
+
                 <li class="list-group-item dropdown">
                     <a class="list-group-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Publicly
+                      More Public
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="list-group-itemDropdown">
                       <a class="dropdown-item" href="#">Working</a>
@@ -50,7 +49,7 @@
                 </li>
                 <li class="list-group-item dropdown">
                     <a class="list-group-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Interestingly
+                      More Interesting
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="list-group-itemDropdown">
                       <a class="dropdown-item" href="#">Writing</a>
@@ -61,7 +60,7 @@
                 </li>
                 <li class="list-group-item dropdown">
                     <a class="list-group-item bg-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Academically
+                      More Academic
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="list-group-itemDropdown">
                       <a class="dropdown-item" href="#">At Present</a>
@@ -72,7 +71,7 @@
                 </li>
                 <li class="list-group-item dropdown">
                     <a class="list-group-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Technically
+                      More Technical
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="list-group-itemDropdown">
                       <a class="dropdown-item" href="#">This Site</a>
@@ -129,8 +128,21 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Personally <span class="sr-only">(current)</span></a>
                   </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Publicly <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Interestingly <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Academically <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Technically <span class="sr-only">(current)</span></a>
+                  </li>
+                  <!--
                   <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                   </li>
@@ -144,13 +156,13 @@
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </nav>
       
             <div class="container-fluid">
-              <h1 class="mt-4">Simple Sidebar</h1>
+              <h1 class="mt-4">About</h1>
               <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
               <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
             </div>
