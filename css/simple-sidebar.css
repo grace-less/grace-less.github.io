@@ -48,18 +48,24 @@ body {
   }
 
   /* Accordion */
-  .accordion {
+  #sidebar-wrapper .accordion {
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
   }
 
-  .panel {
-    background-color: white;
+  #sidebar-wrapper .panel {
+    background-color: whitesmoke;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
   }
 }
