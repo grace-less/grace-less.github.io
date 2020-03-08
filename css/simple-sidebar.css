@@ -54,18 +54,12 @@ body {
     border: none;
     outline: none;
     transition: 0.4s;
-    position: relative;
-    display: block;
-    padding: .75rem 1.25rem;
   }
 
   #sidebar-wrapper .panel {
-    background-color: whitesmoke;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    position: relative;
-    display: block;
-    padding: .75rem 1.25rem;
   }
 }
