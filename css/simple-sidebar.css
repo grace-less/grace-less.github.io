@@ -48,6 +48,15 @@ body {
   }
 
   /* Accordion */
+  .accordion {
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
   .panel {
     padding: 0 18px;
     background-color: white;
