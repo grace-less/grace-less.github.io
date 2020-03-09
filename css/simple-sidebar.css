@@ -17,7 +17,7 @@ body {
 }
 
 #sidebar-wrapper .sidebar-heading {
-  padding: 1.25rem;
+  padding: 0.875rem 1.25rem;
   font-size: 1.2rem;
 }
 
@@ -51,7 +51,7 @@ body {
   #sidebar-wrapper .accordion {
     width: 100%;
     text-align: left;
-    border: 3px slategray;
+    border: none;
     outline: none;
     transition: 0.4s;
   }
