@@ -63,4 +63,8 @@ body {
     transition: max-height 0.2s ease-out;
     text-align: center;
   }
+
+  #page-content-wrapper .card{
+    background-color: #dbe0e5;
+  }
 }
