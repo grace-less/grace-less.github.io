@@ -64,7 +64,7 @@ body {
     text-align: center;
   }
 
-  #page-content-wrapper .col-lg-7{
-    object-position: justify;
+  #page-content-wrapper .text-center{
+    object-position: center;
   }
 }
