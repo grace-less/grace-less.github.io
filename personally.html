@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="A basic website about its author.">
+        <meta name="author" content="Shaelynn DeBone">
+
+        <title>grace-less.github.io</title>
+    
+        <link rel="stylesheet" href="css/simple-sidebar.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        
+    </head>
+
+    <body>
+
+        <div class="d-flex" id="wrapper">
+      
+          <!-- Sidebar -->
+          <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading"> Project 0 </div>
+            <div class="list-group list-group-flush">
+                <!-- compressed menus -->
+                <button class="accordion list-group-item list-group-item-action bg-light">More Personal</button>
+                    <div class="panel bg-light">
+                        <a href="#" class="list-group-item list-group-item-action bg-light">As a Person</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">My Interests</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">My Voice</a>
+                    </div>
+                <button class="accordion list-group-item list-group-item-action bg-light">More Public</button>
+                    <div class="panel bg-light">
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Working</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Volunteering</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Socially</a>
+                    </div>
+                <button class="accordion list-group-item list-group-item-action bg-light">More Interesting</button>
+                    <div class="panel bg-light">
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Writing</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Language</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Mythology</a>
+                    </div>
+                <button class="accordion list-group-item list-group-item-action bg-light">More Academic</button>
+                    <div class="panel bg-light">
+                        <a href="#" class="list-group-item list-group-item-action bg-light">At Present</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">The Struggles</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">The Goals</a>
+                    </div>
+                <button class="accordion list-group-item list-group-item-action bg-light">More Technical</button>
+                    <div class="panel bg-light">
+                        <a href="#" class="list-group-item list-group-item-action bg-light">This Site</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">My Preferences</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">My Tools</a>
+                    </div>
+                <!-- /compressed menus .accordion & .panel -->
+            </div>
+          </div>
+          <!-- /#sidebar-wrapper -->
+      
+          <!-- Page Content -->
+          <div id="page-content-wrapper">
+      
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+              <button class="btn btn-primary" id="menu-toggle">Menu</button>
+      
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Personally <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Publicly <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Interestingly <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Academically <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Technically <span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+      
+            <div class="container-fluid">
+              <h1 class="mt-4">About</h1>
+              <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+              <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+            </div>
+          </div>
+          <!-- /#page-content-wrapper -->
+      
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- Accordion-->
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            }
+            </script>
+      
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      
+        <!-- Menu Toggle Script -->
+        <script>
+          $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+          });
+        </script>
+      
+    </body>
+
+    <!-- <body>
+        <div class="container">
+            <div class="row">
+                <header id="main-header">
+                    <div class="col-md-4 col">
+                        <h1>CAUTION</h1>
+                    </div>
+                    <div class="col-md-4 col">
+                        <h2>Under Construction</h2>
+                    </div>
+                    <div class="col-md-4 col">
+                        <h1>CAUTION</h1>
+                    </div>
+                </header>
+            </div>
+            <div class="row">
+                <nav id="navbar">
+                    <div class="col-md-3 col">
+                        <a href="#">1</a>
+                    </div>
+                    <div class="col-md-3 col">
+                        <a href="#">2</a>
+                    </div>
+                    <div class="col-md-3 col">
+                        <a href="#">3</a>
+                    </div>
+                    <div class="col-md-3 col">
+                        <a href="#">4</a>
+                    </div>
+                </nav>
+            </div>
+            <section id="showcase">
+                <div class="row">
+                    <div class="col">
+                        <p>Things to expect as construction progresses
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <div class="row">
+                            <div class="col-md-3 col">
+                                <li>More Text</li>
+                            </div>
+                            <div class="col-md-3 col">
+                                <li>More Color</li>
+                            </div>
+                            <div class="col-md-3 col">
+                                <li>More Pictures</li>
+                            </div>
+                            <div class="col-md-3 col">
+                                <li>More Fun</li>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col">
+                                <li>Technical Intricasies</li>
+                            </div>
+                            <div class="col-md-3 col">
+                                <li>Working Buttons</li>
+                            </div>
+                            <div class="col-md-3 col">
+                                <li>Actual Content</li>
+                            </div>
+                            <div class="col-md-3 col"> 
+                                <li>Some Form of Plot</li>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col">
+                                <li>Lame Excuses</li>
+                            </div>
+                            <div class="col-md-3 col">
+                                <li>Bad Jokes</li>
+                            </div>
+                            <div class="col-md-3 col">
+                                <li>Random Thoughts</li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col">
+                        <h4>Remember:</h4>
+                    </div>
+                    <div class="col-md-9 col">
+                        <p> My mind is <em>Happy</em>, Blank, and <strong>Empty</strong>.<em>Brainwashing is good for me.</em></strong>
+                    </div>
+                </div>
+            </section>
+            <div class="row"></div>
+                <section id="footnote">
+                    <div class="col-md-3 col">
+                        <h6>P.S.</h6>
+                    </div>
+                    <div class="col-md-9 col">
+                        <p>Please do not hold onto any negative thoughts about the new additions to this site as construction continues. We are simply testing swatches out to find themes that please most of the courier pigeons so they may find you faster.
+                    </div>
+                </section>
+            </div>
+            <div class="row">
+                <footer id="main-footer">
+                    <div class="col">
+                        <p>Copyright &copy; 2020 Shaelynn DeBone</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body> -->
+</html>
