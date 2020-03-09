@@ -65,6 +65,6 @@ body {
   }
 
   #page-content-wrapper .col-lg-7{
-    position: justify;
+    object-position: justify;
   }
 }
