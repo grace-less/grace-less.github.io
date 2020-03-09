@@ -14,7 +14,6 @@ body {
   -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
   transition: margin .25s ease-out;
-  color: rgb(156, 151, 167);
 }
 
 #sidebar-wrapper .sidebar-heading {
