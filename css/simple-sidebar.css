@@ -51,7 +51,7 @@ body {
   #sidebar-wrapper .accordion {
     width: 100%;
     text-align: left;
-    border: none;
+    border: slategray;
     outline: none;
     transition: 0.4s;
   }
