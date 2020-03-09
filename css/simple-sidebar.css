@@ -27,7 +27,6 @@ body {
 
 #page-content-wrapper {
   min-width: 100vw;
-  background-color: rgb(192, 192, 192);
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -64,16 +63,4 @@ body {
     transition: max-height 0.2s ease-out;
     text-align: justify;
   }
-
-  #sidebar-wrapper .border-right{
-    color:rgb(114,114,124);
-  }
-  
-  #page-content-wrapper .navbar{
-    color:rgb(114,114,124);
-  }
-
-  #page-content-wrapper .button{
-    color: #325e8d;
-  }
-}
+}  
