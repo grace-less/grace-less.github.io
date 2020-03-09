@@ -64,11 +64,7 @@ body {
     text-align: center;
   }
 
-  #page-content-wrapper .h-100{
-    background-color: #dbe0e5;
-  }
-
   #page-content-wrapper .col-lg-7{
-    position: center;
+    position: justify;
   }
 }
